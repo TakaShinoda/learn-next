@@ -22,8 +22,6 @@ export default async function CardWrapper() {
     totalPendingInvoices
   } = await fetchCardData()
 
-  console.log('card')
-
   return (
     <>
       {/* NOTE: comment in this code when you get to this point in the course */}
